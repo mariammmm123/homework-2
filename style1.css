@@ -1,0 +1,85 @@
+body{
+ margin: 0;   
+}
+
+.twitternav{
+display: flex;
+justify-content: space-between;
+height: 50px;
+background-color: lightskyblue;
+padding: 10px;
+box-sizing: border-box;
+
+}
+.home-page-btn{
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    
+}   
+.homepagebtn2{
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+    font-size: 19px;
+}
+
+
+.container-wrapper1{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 15px;
+    gap: 12px;
+    width: 700px;
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 10px;
+    background-color:white
+    
+}
+.container-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+.post-img{
+    height: 60px;
+    
+    border-radius: 20px;
+}
+.post-info{
+    width: 100%;
+    
+}
+    
+
+.user-name{
+    margin: 0;
+    margin-bottom: 7px;
+}
+.user-name span{
+    color: grey;
+}
+.buttons-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.buttons-wrapper button{
+    background-color: rgb(6, 101, 160);
+    color: white;
+    border: none;
+    padding: 5px 14px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.15s;
+}
+
+.like-btn:hover{
+    color: red;
+    background-color: black;
+}
